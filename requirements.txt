@@ -1,5 +1,19 @@
+# FastAPI + ASGI server
 fastapi
-uvicorn
+uvicorn[standard]
+
+# Data and ML
 pandas
+numpy
 scikit-learn
-fastapi-cors
+joblib
+
+# Firebase integration
+firebase-admin
+
+# CORS for frontend-backend communication
+fastapi[all]
+
+# Environment variable management
+python-dotenv
+
